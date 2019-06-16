@@ -188,7 +188,7 @@ for(i in 232:2520){
 } 
 dim(topArimaStocks)
 
-#Step 4.5: Portfolio Optization
+#Step 4.5: Portfolio Optimization
 count=0
 loopcount=1
 for(i in 232:2520){
