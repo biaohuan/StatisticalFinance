@@ -1,5 +1,5 @@
 #---
-#title: "ARIMA, Sharpe and Beta for Asset Selection and Optimization"
+#title: "ARIMA an Financial Ratios for Asset Selection and Portfolio Optimization"
 #author: "Biao Huan Foo"
 #---
 
