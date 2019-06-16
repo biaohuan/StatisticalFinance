@@ -532,5 +532,3 @@ endWeightsEqual <- outEqual$EOP.Weight
 txnsEqual <- beginWeightsEqual - lag(endWeightsEqual)
 dailyTOEqual <- xts(rowSums(abs(txnsEqual[,1:30])), order.by=index(txnsEqual))
 barplot(dailyTOEqual, main="Daily Turnover for Equal")
-
-write.table(enlargedWeights ,file="enlargedWeights.txt")
