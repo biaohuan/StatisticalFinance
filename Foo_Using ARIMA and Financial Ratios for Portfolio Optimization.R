@@ -301,7 +301,7 @@ allThree<-merge.xts(cumSP500XTSBlown,cumPortfolioXTSBlown,cumEqualPortfolioXTSBl
 plot(allThree, main="All Portfolios",xlab="Time",ylab="logreturns*1000")
 addLegend(legend.loc = "bottomright", legend.names = c("S&P500 - Black", "Equal Weight - Orange", "Optimized - Red"))
 
-#Step 5.4.1: Compare Equal Weight with ARIMA Forecasts
+#Step 5.4.1: Testing ARIMA Forecasts
 count=0
 loopcount=1
 for(i in 232:2520){
